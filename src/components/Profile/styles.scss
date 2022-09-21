@@ -1,0 +1,39 @@
+.Profile {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    
+    .description {
+        align-self: center;
+        font-family: 'Lobster', cursive;
+        font-size: 5.0rem;
+    }
+    .btn-about {
+        align-self: center;
+    }
+    img {
+        border-radius: 500%;
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+.btn-about Button
+    {
+        padding: 0.75rem 1.5rem;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        border: outset;
+        outline: none;
+        color:black;
+        background-color: #f1ece9;
+        font-family: "lobster" ;
+    }
+
+@media screen and (max-width: 750px){
+    .Profile{
+        display: flex; 
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
